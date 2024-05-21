@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj": {}
+    "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj": {}
   },
   "projects": {
-    "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj": {
+    "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj",
+        "projectUniqueName": "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj",
         "projectName": "CATALOGO_DE_PRODUCTOS",
-        "projectPath": "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj",
+        "projectPath": "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj",
         "packagesPath": "C:\\Users\\Andres Ortega S\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\obj\\",
+        "outputPath": "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -86,6 +86,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

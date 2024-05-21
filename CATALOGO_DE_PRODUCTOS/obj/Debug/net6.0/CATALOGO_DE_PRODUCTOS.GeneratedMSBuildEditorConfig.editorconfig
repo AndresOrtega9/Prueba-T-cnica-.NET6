@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CATALOGO_DE_PRODUCTOS
 build_property.RootNamespace = CATALOGO_DE_PRODUCTOS
-build_property.ProjectDir = D:\Escritorio\CATALOGO_DE_PRODUCTOS\CATALOGO_DE_PRODUCTOS\
+build_property.ProjectDir = C:\Users\Andres Ortega S\source\RepositoriosGIT\CATALOGO_DE_PRODUCTOS\CATALOGO_DE_PRODUCTOS\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Escritorio\CATALOGO_DE_PRODUCTOS\CATALOGO_DE_PRODUCTOS
+build_property.MSBuildProjectDirectory = C:\Users\Andres Ortega S\source\RepositoriosGIT\CATALOGO_DE_PRODUCTOS\CATALOGO_DE_PRODUCTOS
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Acceso/Login.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Acceso/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Create.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Delete.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Details.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Index.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Create.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Delete.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Details.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Edit.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Index.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Usuario/Create.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Usuario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/_ViewImports.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/_ViewStart.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Escritorio/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Shared/_Layout.cshtml]
+[C:/Users/Andres Ortega S/source/RepositoriosGIT/CATALOGO_DE_PRODUCTOS/CATALOGO_DE_PRODUCTOS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-g1ctmwz1i9

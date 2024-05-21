@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\",
+  "WorkspaceRootPath": "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FC61EC2-1B31-4905-B747-57D9E9E45A2B}|CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj|d:\\escritorio\\catalogo_de_productos\\catalogo_de_productos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FC61EC2-1B31-4905-B747-57D9E9E45A2B}|CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj|c:\\users\\andres ortega s\\source\\repositoriosgit\\catalogo_de_productos\\catalogo_de_productos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FC61EC2-1B31-4905-B747-57D9E9E45A2B}|CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS.csproj|solutionrelative:catalogo_de_productos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\Program.cs",
               "RelativeDocumentMoniker": "CATALOGO_DE_PRODUCTOS\\Program.cs",
-              "ToolTip": "D:\\Escritorio\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\Program.cs",
+              "ToolTip": "C:\\Users\\Andres Ortega S\\source\\RepositoriosGIT\\CATALOGO_DE_PRODUCTOS\\CATALOGO_DE_PRODUCTOS\\Program.cs",
               "RelativeToolTip": "CATALOGO_DE_PRODUCTOS\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T06:56:17.882Z",
               "EditorCaption": ""
