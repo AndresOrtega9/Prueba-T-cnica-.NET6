@@ -1,0 +1,45 @@
+﻿@model CATALOGO_DE_PRODUCTOS.Models.Producto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4>Crear producto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div style="margin-top:10px" class="form-group">
+                <input asp-for="Nombre" placeholder="Nombre de producto" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div style="margin-top:10px" class="form-group">
+                <input asp-for="Cantidad" type="number" min="0" placeholder="Cantidad" class="form-control" />
+                <span asp-validation-for="Cantidad" class="text-danger"></span>
+            </div>
+            <div style="margin-top:10px" class="form-group">
+                <input asp-for="Precio" type="number" min="0" placeholder="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            
+            <div style="margin-top:10px" class="form-group">
+                <input asp-for="Imagen" type="file" required="required" accept="image/*" class="form-control" />
+                <span asp-validation-for="Imagen" class="text-danger"></span>
+            </div>
+            <div style="margin-top:10px" class="form-group">
+                <select asp-for="IdCategoria" class ="form-control" asp-items="ViewBag.IdCategoria">
+                    <option value="">--Categoria--</option>
+                </select>
+            </div>
+            <div style="margin-top:10px" class="form-group">
+                <input type="submit" value="Crear" class="btn btn-success" />
+                <a class="btn btn-primary" asp-action="Index" asp-controller="Producto">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

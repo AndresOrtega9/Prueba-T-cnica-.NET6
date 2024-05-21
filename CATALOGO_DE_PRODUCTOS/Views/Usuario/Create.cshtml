@@ -1,0 +1,69 @@
+﻿@model CATALOGO_DE_PRODUCTOS.Models.Usuario
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header"><h3 class="text-center">Crear usuario</h3></div>
+                    @if (ViewData["Msj"] != null)
+                    {
+                        <div style="text-align:center" class="alert alert-warning" role="alert">
+                            @ViewData["Msj"]
+                        </div>
+                    }
+                    <div class="card-body">
+                        <form asp-action="Create" class="needs-validation" method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="mb-3">
+                                <input placeholder="Usuario" asp-for="Username" class="form-control" required />
+                                <span asp-validation-for="Username" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="Contraseña" type="password" asp-for="Password" class="form-control" required />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="Confirmar contraseña" type="password" asp-for="ConfirmarPassword" class="form-control" required />
+                                <span asp-validation-for="ConfirmarPassword" class="text-danger"></span>
+                            </div>
+                            <div class="d-grid mb-3">
+                                <button type="submit" class="btn btn-success">Crear</button>
+                            </div>
+                            <div style="text-align: center">
+                                <a class="btn btn-primary" asp-controller="Acceso" asp-action="Login">Ir a login</a>
+                            </div>
+                            @if (TempData["Mensaje"] != null)
+                            {
+                                <div class="alert alert-danger mt-3" role="alert">
+                                    @TempData["Mensaje"]
+                                </div>
+                            }
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

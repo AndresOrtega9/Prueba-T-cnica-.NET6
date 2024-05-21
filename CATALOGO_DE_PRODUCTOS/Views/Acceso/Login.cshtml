@@ -1,0 +1,53 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header"><h3 class="text-center">Login</h3></div>
+                    @if (ViewData["Msj"] != null)
+                    {
+                        <div style="text-align:center" class="alert alert-warning" role="alert">
+                            @ViewData["Msj"]
+                        </div>
+                    }
+                    <div class="card-body text-center">
+                        <form asp-action="Login" asp-controller="Acceso" method="post">
+                            <input placeholder="Usuario" class="form-control form-control-sm mb-3" name="Username" required />
+                            <input placeholder="Contraseña" type="password" class="form-control form-control-sm mb-3" name="Password" required />
+                            <div class="d-grid mb-3">
+                                <button class="btn btn-primary btn-sm" type="submit">Ingresar</button>
+                            </div>
+                            <div style="text-align: center">
+                                <a class="btn btn-link btn-sm" href="@Url.Action("Create","Usuario")">Crear usuario</a>
+                            </div>
+                            @if (TempData["Mensaje"] != null)
+                            {
+                                <div class="alert alert-danger" role="alert">
+                                    @TempData["Mensaje"]
+                                </div>
+                            }
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+﻿@model IEnumerable<CATALOGO_DE_PRODUCTOS.Models.Producto>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Administración de productos</h1>
+<hr />
+@if (ViewBag.Msj != null)
+{
+    <div style="text-align:center" class="alert alert-warning" role="alert">
+        @ViewBag.Msj
+    </div>
+}
+<p>
+    <a class="btn btn-success" asp-action="Create">Crear +</a>
+</p>
+
+<form asp-controller="Producto" asp-action="Index">
+    <div >
+        <div>
+            <span>
+                Listar por categoria
+            </span>
+            <select class="form-group" name="filtro">
+                <option class="form-control" value="">--Seleccione--</option>
+                @foreach (var cat in ViewBag.Categoria)
+                {
+                    <option value="@cat.Text">@cat.Text</option>
+                }
+            </select>
+            <input type="submit" value="Buscar" class="btn btn-secondary" />
+            <a href="@Url.ActionLink("Index","Producto")" class="btn btn-primary">Ver todos</a>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cantidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaCreacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.Imagen" alt="ImagenProducto" width="100px" height="100px" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cantidad)
+                </td>
+                <td>
+                    $@Html.DisplayFor(modelItem => item.Precio)
+                </td>
+                <td>
+                    @item.FechaCreacion.ToString("dd-MM-yyyy")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Categoria.Nombre)
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-warning" asp-action="Details" asp-route-id="@item.Id">Detalle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,68 @@
+﻿@model CATALOGO_DE_PRODUCTOS.Models.Producto
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>Editar producto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div style="margin-bottom:10px" class="form-group">
+                @if (!string.IsNullOrEmpty(ViewBag.ImagenActual))
+                {
+                    <div>
+                        <span>Imagen actual del producto</span>
+                    </div>
+                    <img width="100px" height="100px" src="@ViewBag.ImagenActual" />
+                }
+                else
+                {
+                    <span>No hay imagen disponible</span>
+                }
+            </div>
+            <div style="margin-bottom:10px" class="form-group">
+                <label>Nombre</label>
+                <input asp-for="Nombre" placeholder="Nombre producto" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div style="margin-bottom:10px" class="form-group">
+                <label>Cantidad</label>
+                <input asp-for="Cantidad" type="number" min="0" placeholder="Cantidad" class="form-control" />
+                <span asp-validation-for="Cantidad" class="text-danger"></span>
+            </div>
+            <div style="margin-bottom:10px" class="form-group">
+                <label>Precio</label>
+                <input asp-for="Precio" type="number" min="0" value="@Model.Precio.ToString("0.##")" placeholder="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div style="margin-bottom:10px" class="form-group">
+                <label>Nueva imagen (opcional)</label>
+                <input value="@ViewBag.ImagenActual" name="nombreArchivo" hidden="hidden" />
+                <input asp-for="Imagen" type="file" class="form-control" value="@ViewBag.ImagenActual" />
+                <span asp-validation-for="Imagen" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <select asp-for="IdCategoria" class="form-control" asp-items="ViewBag.IdCategoria">
+                    <option>--Categoria--</option>
+                </select>
+                <span asp-validation-for="IdCategoria" class="text-danger"></span>
+            </div>
+            <div style="margin-top:10px" class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-success" />
+                <a class="btn btn-primary" asp-action="Index">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
